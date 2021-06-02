@@ -4,21 +4,22 @@ _Followed + adapted from [this article](https://nodejs.org/en/docs/guides/nodejs
 
 ## Setup
 
-Install Node on your local machine if you haven't already.
-Clone this GitHub repo. (The directory that you clone it to will be your project directory)
+- Install Node on your local machine if you haven't already.
+- Clone this GitHub repo. (The directory that you clone it to will be your project directory)
+- Make sure Docker is running
 
 ## Build Process
 
-Run the following in the project directory:
-`docker build . -t username-here/container-name-here`
+Run the following in the project directory:\
+`docker build . -t container-name-here`
 
 - `username-here`: Replace with your name
 - `container-name-here`: Replace with what you would like to title the container
 
 ## Run
 
-Run the following in the project directory:
-`docker run -p machine-port:8080 -d username-here/container-name-here`
+Run the following in the project directory:\
+`docker run -p machine-port:8080 -d container-name-here`
 
 - `machine-port`: The port you want the Docker port mapped to, on your local machine
 - `username-here`: Defined above
