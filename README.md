@@ -2,6 +2,11 @@
 
 _Followed + adapted from [this article](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)_
 
+## Setup
+
+Install Node on your local machine if you haven't already.
+Clone this GitHub repo. (The directory that you clone it to will be your project directory)
+
 ## Build Process
 
 Run the following in the project directory:
