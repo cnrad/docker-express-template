@@ -5,8 +5,9 @@ _Followed + adapted from [this article](https://nodejs.org/en/docs/guides/nodejs
 ## Setup
 
 - Install Node on your local machine if you haven't already.
-- Clone this GitHub repo. (The directory that you clone it to will be your project directory)
+- Clone this GitHub repo and navigate to it, we will be running the commands inside this folder
 - Make sure Docker is running
+- Edit any fields in the `package.json` that are indicated (name, author, etc), as well as the PORT variable in `server.js` (OPTIONAL).
 
 ## Build Process
 
