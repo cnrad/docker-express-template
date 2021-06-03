@@ -14,7 +14,6 @@ _Followed + adapted from [this article](https://nodejs.org/en/docs/guides/nodejs
 Run the following in the project directory:\
 `docker build . -t container-name-here`
 
-- `username-here`: Replace with your name
 - `container-name-here`: Replace with what you would like to title the container
 
 ## Run
@@ -23,7 +22,6 @@ Run the following in the project directory:\
 `docker run -p machine-port:8080 -d container-name-here`
 
 - `machine-port`: The port you want the Docker port mapped to, on your local machine
-- `username-here`: Defined above
 - `container-name-here`: Defined above
 
 ## Usage
